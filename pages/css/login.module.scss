@@ -1,0 +1,82 @@
+.dispFlex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(202, 202, 207);
+  height: 200px;
+  width: 300px;
+  padding-top: 60px;
+  margin-left: 480px;
+  margin-top: 100px;
+}
+
+button {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+button:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+.inputField {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 50px;
+}
+.nav .btn {
+  margin: 50px;
+}
+
+/* .cd {
+  color: white;
+
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+} */
+
+.tf {
+  color: white;
+  background-color: rgb(212, 69, 93);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+.rd {
+  color: white;
+
+  background-color: green;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+.fm {
+  color: white;
+
+  background-color: rgb(37, 37, 126);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+.other {
+  color: white;
+
+  background-color: black;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
